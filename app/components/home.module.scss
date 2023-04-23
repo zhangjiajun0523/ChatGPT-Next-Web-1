@@ -137,14 +137,26 @@ overflow: hidden;
 
 .sidebar-title {
   font-size: 20px;
-  font-weight: bold;
-  animation: slide-in ease 0.3s;
+font-weight: 700;
+background-image: var(--accent-gradient);
+-webkit-background-clip: text;
+-webkit-text-fill-color: rgba(229,13,13,0);
+background-size: 113%;
+background-position: 0;
+--accent-gradient: var(--theme-purple);
+--accent-gradient: linear-gradient(45deg,rgba(124,58,237,.8),rgba(218,98,196,.8) 30%,#fff 60%);
 }
 
 .sidebar-sub-title {
   font-size: 12px;
   font-weight: 400px;
   animation: slide-in ease 0.3s;
+  background-image: var(--accent-gradient);
+-webkit-background-clip: text;
+-webkit-text-fill-color: rgba(229,13,13,0);
+background-size: 113%;
+background-position: 0;
+--accent-gradient: linear-gradient(45deg,rgba(34,165,226,.8),rgba(45,218,174,.8) 30%,#eea8ed 60%);
 }
 
 .sidebar-body {
