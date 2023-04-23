@@ -37,7 +37,7 @@
   --theme-color: var(--gray);
 
   div:not(.no-dark) > svg {
-    filter: invert(0.5);
+    filter: var(--black);
   }
 }
 
@@ -98,8 +98,7 @@ body {
   justify-content: center;
   align-items: center;
   user-select: none;
-  font-family: "Noto Sans SC", "SF Pro SC", "SF Pro Text", "SF Pro Icons",
-    "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "微软雅黑","Arial", sans-serif;
 
   @media only screen and (max-width: 600px) {
     background-color: var(--second);

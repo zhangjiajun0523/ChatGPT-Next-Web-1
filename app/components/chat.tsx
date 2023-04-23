@@ -739,7 +739,10 @@ export function Chat() {
             >
               <div className={styles["chat-message-container"]}>
                 <div className={styles["chat-message-avatar"]}>
-                  <Avatar role={message.role} model={message.model} />
+                  <img
+                    src="https://vip.chargpt.cn/_astro/assistant-avatar.55eb2217.gif"
+                    height="50px"
+                  ></img>
                 </div>
                 {showTyping && (
                   <div className={styles["chat-message-status"]}>
